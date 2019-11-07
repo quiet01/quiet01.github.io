@@ -1,0 +1,638 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, Helvetica, Arial, sans-serif!important;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 76px;
+	display: flex;
+	justify-content: center;
+	z-index: 423;
+	background: #fff;
+}
+
+.header-main {
+	width: 94%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.img {
+	width: 151px;
+	height: 100%;
+	background: url(../img/logo1.b8d5e40.png) center center no-repeat;
+	background-size: 151px 38px;
+}
+
+.navbar {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	margin: 8px 16px;
+}
+
+.navbar>a:hover {
+	color: #ff5a05;
+}
+
+.navbar-span {
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	color: black;
+	padding-left: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#denglu {
+	margin-left: 0px;
+	margin-right: 15px;
+}
+
+#register {
+	margin-right: 0px;
+	margin-left: 6px;
+}
+
+.main-one {
+	width: 100%;
+	height: 594px;
+	padding: 75px 0 60px 0;
+	background: url(../img/homebg.ec1a3fd.jpg);
+	background-size: cover;
+	display: flex;
+}
+
+.mobile {
+	width: 346px;
+	height: 594px;
+	margin-left: 17%;
+	display: flex;
+	background: url(../img/mobilebg-black.30c212c.png) no-repeat;
+	margin-right: 71px;
+	padding-top: 62px;
+}
+
+.mobile-main {
+	width: 267px;
+	height: 432.39px;
+	margin-left: 48px;
+	background: url(../img/screenshot2@2x.c26a2f7.jpg) no-repeat;
+	background-size: 243px 432.39px;
+}
+
+.download {
+	margin-left: 16px;
+	margin-top: 100px;
+}
+
+.download-header {
+	display: flex;
+	align-content: center;
+}
+
+.download-header img {
+	width: 68px;
+	height: 68px;
+}
+
+.download-header h1 {
+	margin: 0 0 0 16px;
+	line-height: 68px;
+	text-align: center;
+	font-size: 51.34px;
+	font-weight: 300;
+}
+
+.download-main {
+	font-size: 18px;
+	letter-spacing: 10px;
+	color: #353535;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	line-height: 48px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.download-main2 {
+	margin-top: 55px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.download-main2-1 a {
+	width: 199px;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	border-radius: 7px;
+	color: white;
+	border: 1px solid transparent;
+}
+
+.download-main2-1 {
+	margin-right: 34px;
+	width: 201px;
+	height: 126px;
+	color: white;
+}
+
+.download-main2-1 a:hover {
+	border-color: red;
+}
+
+.download-main2-1 a i {
+	margin: 0 16px;
+}
+
+.download-main2-2 {
+	background-color: #121212;
+	margin-bottom: 20px;
+}
+
+.download-main2 a p {
+	font-size: 14px;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+}
+
+.download-main2-3 {
+	background-color: #6bb24a;
+}
+
+.download-main2 img {
+	width: 125px;
+	height: 125px;
+}
+
+.download-main2 h2 {
+	margin-top: 35px;
+	width: 360px;
+	height: 48px;
+	border: 1px solid #eb6d29;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 0px;
+	background: url(../img/computer_logo.png) no-repeat;
+	background-size: 36px;
+	background-position: 14px;
+	text-align: center;
+	line-height: 48px;
+	color: #eb6d29;
+}
+
+.download-main2 h2 a {
+	width: 100%;
+	height: 100%;
+	color: #eb6d29;
+}
+
+.download-main3 {
+	margin-top: 20px;
+	font-size: 19px;
+	line-height: 1.1;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	color: #888;
+	display: flex;
+
+}
+
+.download-main3 i {
+	margin-left: 8px;
+}
+
+.download-main3 a {
+	color: #888;
+}
+
+.main-two {
+	margin-top: 92px;
+	margin-bottom: 82px;
+	text-align: center;
+}
+
+.main-two h1 {
+	text-align: center;
+	font-size: 45px;
+	font-weight: 400;
+	color: #353535;
+}
+
+.main-two p {
+	margin: 0px;
+	color: #353534;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	line-height: 62px;
+	font-size: 18px;
+}
+
+.main-two1 {
+	margin: 0 auto;
+	
+	max-width: 868px;
+	margin-bottom: 24px;
+}
+.main-two3 {
+	width: 440px;
+	height: 57px;
+	margin: 0 auto;
+	display: flex;
+	background: #fff;
+	border-radius: 6px;
+}
+
+.main-two3 a {
+	width: 174px;
+	height: 57px;
+	color: #353535;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-shadow: 0 1px 16px -6px rgba(0, 0, 0, .6);
+}
+
+.main-two3 a:nth-of-type(1) {
+	margin-right: 84px;
+}
+
+.main-two3 a:nth-of-type(2) {
+	color: #ff5a05;
+}
+
+.main-two3 img {
+	position: absolute;
+	left:41.3%;
+	top: 260.6%;
+	width: 35px;
+	border-top-right-radius: 6px;
+	cursor: pointer;
+}
+
+.plane {
+	width: 100%;
+	height: 594px;
+	padding: 75px 0 60px 0;
+	display: flex;
+}
+
+.container .plane:nth-of-type(even) {
+	background-color: #f3f0e9;
+}
+
+.mobile-maino {
+	width: 243px;
+	height: 432.39px;
+	margin-left: 48px;
+}
+
+.xinwen {
+	background: url(../img/screenshot1@2x.ea1ea4c.jpg) no-repeat;
+	background-size: 243px 432.39px;
+}
+
+.load1 {
+	padding-left: 56px;
+	margin: 0;
+	margin-top: 200px;
+}
+
+.load1 h1 {
+	font-weight: 400;
+	color: #353535;
+	font-size: 45px;
+	margin: 0 0 40px 0;
+	font-family: PingFang SC, Helvetica Neue, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+.load1 p {
+	margin-top: 0px;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	line-height: 32px;
+	color: #353534;
+}
+
+.font {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 50%;
+}
+
+.font-one {
+	margin-right: 60px;
+	-webkit-box-sizing: border-box;
+	margin-left: auto;
+}
+
+.font-one h1 {
+	font-weight: 400;
+	font-size: 45px;
+	margin-bottom: 40px;
+	line-height: 1;
+	color: #353535;
+	font-family: PingFang SC, Helvetica Neue, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+.font-one p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #353534;
+	margin-bottom: 14px;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+}
+
+.mobileo {
+	padding-left: 29px;
+}
+
+.shiping {
+	background: url(../img/screenshot4@2x.f39272e.jpg) no-repeat;
+	background-size: 243px 432.39px;
+}
+
+.moblieo-container {
+	width: 346px;
+	height: 594px;
+	background: url(../img/mobilebg-black.30c212c.png);
+	background-repeat: no-repeat;
+	padding-top: 56px;
+}
+
+.moblieo-container img {
+	display: block;
+	width: 243px;
+	height: 432.39px;
+	margin-left: 48px;
+	background: url(../img/screenshot1@2x.ea1ea4c.jpg) no-repeat;
+	background-size: 243px 432.39px;
+}
+
+.wrap {
+	padding: 65px 0;
+	text-align: center;
+	background-color: #d9d9d9;
+}
+
+.wrap img {
+	width: 173px;
+	height: 173px;
+}
+
+.wrap p {
+	color: #353535;
+	line-height: 1;
+	margin-bottom: 0;
+	font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif;
+	margin-top: 18px;
+	font-size: 18px;
+}
+.footer{
+	width: 100%;
+	background-color: #212326;
+}
+.footer-bian{
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 88vw;
+}
+.footer-header{
+	padding-bottom: 40px;
+	padding-top: 80px;
+	display: flex;
+	border-bottom: 1px solid #424242;
+	justify-content: space-between;
+	padding-right: 250px;
+	font: 300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif;
+}
+.footer-header a:hover{
+	color: #ff5a05;
+}
+.footer-header a{
+	color: #fff;
+
+}
+.footer-main{
+	color: #888;
+	padding-top: 27px;
+	display: flex;
+	
+}
+.footer-maino{
+	display: flex !important;
+	justify-content: center;
+	flex-basis: 25%;
+	padding: 0 12px 24px 12px;
+	align-items: center;
+}
+i{
+	margin-right: 16px;
+	display: flex !important;
+	align-items: center;
+	
+}
+.footer-maino p{
+	margin: 0px;
+	padding:0 0 0 12px;
+	color: #888 !important;
+}
+.footer-bian >p{
+	color: #4a4a4a;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 0 25px 12px;
+	margin: 0;
+}
+
+/* 轮播图 */
+html {
+    overflow-x: hidden;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+input,
+textarea,
+p,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+button,
+img,
+em {
+    border: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+em,
+i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label {
+    display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.img_div {
+	margin: 0 auto;
+	position: relative;
+	top: 13px;
+}
+
+#featured-area {
+    height: 337px;
+    width: 640px;
+    margin: 0px auto 0
+}
+
+.roundabout-holder {
+    list-style: none;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto
+}
+
+.roundabout-moveable-item {
+    font-size: 12px!important;
+    height: 270px;
+    width: 450px;
+    cursor: pointer;
+    padding: 5px;
+    /* border: 1px solid #aaa; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #f9f9f9
+}
+
+.roundabout-moveable-item img {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    margin: 0
+}
+
+.roundabout-in-focus {
+    cursor: auto
+}
+
+.roundabout-in-focus:hover {
+    -webkit-box-shadow: 0 0 20px #787878;
+    -moz-box-shadow: 0 0 20px #787878;
+    background: #f9f9f9
+}
+
+.roundabout-holder span {
+    display: none
+}
+
+.roundabout-in-focus:hover span {
+    display: inline;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 8px 20px;
+    background: #f9f9f9;
+    color: #36c;
+    z-index: 999;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-left: 1px solid #aaa;
+    border-top: 1px solid #aaa
+}
+
+.roundabout a:active,
+.roundabout a:focus,
+.roundabout a:visited {
+    outline: 0;
+    text-decoration: none
+}
+
+.roundabout li {
+    margin: 0
+}
